@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Módulo 3: Misión Marte: El Aterrizaje | Un mundo de ecuaciones </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Juan Manuel Caballero Herrero" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 Portable - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-13"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Un mundo de ecuaciones</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Un mundo de ecuaciones</a></li>
+   <li><a href="mdulo_1_introduccin_a_las_ecuaciones.html" class="daddy">Módulo 1: Introducción a las ecuaciones</a>
+   <ul class="other-section">
+      <li><a href="11_qu_es_una_ecuacin.html" class="no-ch">1.1 ¿Qué es una ecuación?</a></li>
+      <li><a href="12_componentes_de_una_ecuacin.html" class="no-ch">1.2 Componentes de una ecuación</a></li>
+      <li><a href="13_concepto_de_solucin_y_verificacin.html" class="no-ch">1.3 Concepto de solución y verificación</a></li>
+      <li><a href="14_resolucin_de_ecuaciones_de_primer_grado_nivel_inicial.html" class="no-ch">1.4 Resolución de ecuaciones de primer grado (nivel inicial)</a></li>
+   </ul>
+   </li>
+   <li><a href="mdulo_2_ecuaciones_de_segundo_grado.html" class="daddy">Módulo 2: Ecuaciones de segundo grado</a>
+   <ul class="other-section">
+      <li><a href="21_ecuaciones_de_segundo_grado_incompletas_tipo_1_ax2__c__0.html" class="no-ch">2.1 Ecuaciones de segundo grado incompletas (Tipo 1: ax^2 + c = 0)</a></li>
+      <li><a href="21_ecuaciones_de_segundo_grado_incompletas_tipo_2_ax2__bx__0.html" class="no-ch">2.1 Ecuaciones de segundo grado incompletas (Tipo 2: ax^2 + bx = 0)</a></li>
+      <li><a href="22_ecuaciones_de_segundo_grado_completa_ax2__bx__c__0.html" class="daddy">2.2 Ecuaciones de segundo grado completa (ax^2 + bx + c = 0)</a>
+      <ul class="other-section">
+         <li><a href="221_el_discriminate_b2__4ac.html" class="no-ch">2.2.1 El discriminate (b^2 + 4ac)</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li id="active"><a href="mdulo_3_misin_marte_el_aterrizaje.html" class="active no-ch">Módulo 3: Misión Marte: El Aterrizaje</a></li>
+   <li><a href="final_time_for_fun__angry_birds.html" class="no-ch">Final: Time for fun - Angry Birds!!!</a></li>
+   <li><a href="autora_y_licencia.html" class="no-ch">Autoría y licencia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="221_el_discriminate_b2__4ac.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="final_time_for_fun__angry_birds.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Módulo 3: Misión Marte: El Aterrizaje</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id73">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle"> </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta73_128_2" class="block iDevice_content">
+<div class="exe-text"><style>
+    #misionControl {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #1a1a1a;
+        color: #00ff00;
+        padding: 20px;
+        border-radius: 10px;
+        border: 4px solid #333;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+    .panel {
+        background-color: #000;
+        border: 1px solid #00ff00;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: none; /* Ocultos por defecto */
+        animation: fadeIn 1s;
+    }
+    .panel.active {
+        display: block;
+    }
+    h2 { color: #fff; text-transform: uppercase; border-bottom: 1px dashed #fff; padding-bottom: 10px; }
+    .btn-mars {
+        background-color: #d32f2f;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-family: inherit;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 1.1em;
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+    .btn-mars:hover { background-color: #b71c1c; }
+    .input-code {
+        background: #333;
+        border: 1px solid #555;
+        color: #fff;
+        padding: 10px;
+        font-family: inherit;
+        font-size: 1.2em;
+        width: 150px;
+        text-align: center;
+    }
+    .hint {
+        color: #ffeb3b;
+        font-size: 0.8em;
+        margin-top: 5px;
+        display: none;
+    }
+    .error-msg { color: red; font-weight: bold; display:none; margin-top:10px;}
+    
+    /* Animación de aparición */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+<div id="misionControl">
+<div id="fase0" class="panel active" style="text-align: center;">
+<h1 style="color: #e65100; text-shadow: 0 0 10px #e65100;">🚀 MISIÓN MARTE</h1>
+<p>Sistema de navegación: <span style="color: red;">OFFLINE</span></p>
+<p>Piloto, necesitamos reactivar los sistemas manualmente usando ecuaciones cuadráticas. La atmósfera es inestable.</p>
+<p>¿Estás listo para el descenso?</p>
+<button class="btn-mars" onclick="irFase(1)">INICIAR SECUENCIA</button></div>
+<div id="fase1" class="panel">
+<h3 style="color: #4fc3f7;">Fase 1: Presurizar Tanques</h3>
+<p>Detectamos un fallo en la presión. La computadora muestra esta ecuación de equilibrio:</p>
+<div style="font-size: 1.5em; text-align: center; margin: 20px; border: 1px dashed #4fc3f7; padding: 10px;">x² - 100 = 0</div>
+<p>Introduce el valor <strong>POSITIVO</strong> de x para abrir la válvula.</p>
+<div style="text-align: center;"><input type="number" id="pass1" class="input-code" placeholder="?" /> <br /><button class="btn-mars" onclick="checkFase1()">PRESURIZAR</button>
+<p id="error1" class="error-msg">⚠️ PRESIÓN INCORRECTA. REVISA CÁLCULOS.</p>
+<button onclick="verPista(1)" style="background: none; border: none; color: #777; cursor: pointer; font-size: 0.8em; margin-top: 10px;">(Solicitar Pista)</button>
+<p id="hint1" class="hint">💡 Pista: Pasa el 100 sumando y haz la raíz cuadrada.</p>
+</div>
+</div>
+<div id="fase2" class="panel">
+<h3 style="color: #ce93d8;">Fase 2: Vector de Entrada</h3>
+<p>¡Tanques listos! Ahora debemos corregir el ángulo de entrada. La trayectoria sigue esta curva:</p>
+<div style="font-size: 1.5em; text-align: center; margin: 20px; border: 1px dashed #ce93d8; padding: 10px;">2x² - 10x = 0</div>
+<p>Necesitamos las dos coordenadas de corrección. (Introduce el número mayor de los dos).</p>
+<div style="text-align: center;"><input type="number" id="pass2" class="input-code" placeholder="?" /> <br /><button class="btn-mars" onclick="checkFase2()">CORREGIR RUMBO</button>
+<p id="error2" class="error-msg">⚠️ TRAYECTORIA ERRÓNEA. PELIGRO DE COLISIÓN.</p>
+<button onclick="verPista(2)" style="background: none; border: none; color: #777; cursor: pointer; font-size: 0.8em; margin-top: 10px;">(Solicitar Pista)</button>
+<p id="hint2" class="hint">💡 Pista: Saca factor común '2x'. Una solución es 0, ¿cuál es la otra?</p>
+</div>
+</div>
+<div id="fase3" class="panel">
+<h3 style="color: #fff176;">Fase 3: Aterrizaje Final</h3>
+<p>¡Estamos entrando! Solo queda activar el tren de aterrizaje. El suelo es plano en el punto donde el discriminante es CERO.</p>
+<p>Resuelve la ecuación para encontrar el Código de Aterrizaje:</p>
+<div style="font-size: 1.5em; text-align: center; margin: 20px; border: 1px dashed #fff176; padding: 10px;">x² - 6x + 9 = 0</div>
+<p>Esta ecuación tiene <strong>una solución doble</strong>. ¿Cuál es?</p>
+<div style="text-align: center;"><input type="number" id="pass3" class="input-code" placeholder="Código" /> <br /><button class="btn-mars" onclick="checkFase3()">ACTIVAR TREN</button>
+<p id="error3" class="error-msg">⚠️ CÓDIGO INVÁLIDO. SUELO INESTABLE.</p>
+<button onclick="verPista(3)" style="background: none; border: none; color: #777; cursor: pointer; font-size: 0.8em; margin-top: 10px;">(Solicitar Pista)</button>
+<p id="hint3" class="hint">💡 Pista: Identifica a=1, b=-6, c=9. Usa la fórmula o factoriza.</p>
+</div>
+</div>
+<div id="faseWin" class="panel" style="text-align: center; border-color: #00e676;">
+<h1 style="color: #00e676;">🎉 ¡MISIÓN CUMPLIDA!</h1>
+<div style="font-size: 4em;">👽🚩</div>
+<p style="font-size: 1.2em;">Has aterrizado el Rover con éxito en la superficie marciana.</p>
+<p>Tus conocimientos sobre ecuaciones de segundo grado han salvado la misión.</p>
+<div style="background-color: #333; padding: 10px; margin-top: 20px; border-radius: 5px;"><strong>Código de Verificación:</strong> MARS-2025-X2</div>
+</div>
+</div>
+<p>
+<script>
+    function irFase(num) {
+        // Ocultar todos
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        // Mostrar el deseado
+        if(num === 'Win') {
+            document.getElementById('faseWin').classList.add('active');
+        } else {
+            document.getElementById('fase' + num).classList.add('active');
+        }
+    }
+
+    function checkFase1() {
+        let val = document.getElementById('pass1').value;
+        // Solución x^2 = 100 -> x = 10
+        if(val == 10) {
+            irFase(2);
+        } else {
+            mostrarError('error1');
+        }
+    }
+
+    function checkFase2() {
+        let val = document.getElementById('pass2').value;
+        // Solución 2x(x - 5) -> x=0, x=5. Pide la mayor.
+        if(val == 5) {
+            irFase(3);
+        } else {
+            mostrarError('error2');
+        }
+    }
+
+    function checkFase3() {
+        let val = document.getElementById('pass3').value;
+        // Solución (x-3)^2 -> x=3
+        if(val == 3) {
+            irFase('Win');
+        } else {
+            mostrarError('error3');
+        }
+    }
+
+    function mostrarError(id) {
+        let elem = document.getElementById(id);
+        elem.style.display = 'block';
+        setTimeout(() => { elem.style.display = 'none'; }, 3000);
+    }
+
+    function verPista(num) {
+        let elem = document.getElementById('hint' + num);
+        elem.style.display = 'block';
+    }
+</script>
+</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="221_el_discriminate_b2__4ac.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="final_time_for_fun__angry_birds.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
